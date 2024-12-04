@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="get" align="center">
+        <h1>Form</h1>
+        <br><br><br><br>
+        <label for="firstname">First name</label>
+        <!-- id to concentrate on the box when i click on the lable  -->
+        <!-- name to send data in url -->
+        <input type="text" placeholder="firstname" id="firstname" name="firstname" required  maxlength="20"
+            minlength="4">
+
+        <label for="lastname">Last name</label>
+        <!-- id to concentrate on the box when i click on the lable  -->
+        <input type="text" placeholder="lastname" id="lastname" name="lasttname" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="Password" name="Password" minlength="8">
+
+        <label for="password"> Confirm Password</label>
+        <input type="password" id="Password" name="Confirm password">
+
+        <br><br><br>
+
+        <label for="date">Birth Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <br><br><br>
+
+        <h2>Gender</h2>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <br><br><br>
+
+
+        <h2>Faculty</h2>
+        <select name="Faculty">
+            <option value="BU">Banha university</option>
+            <option value="Cu">cairo university</option>
+            <option value="AUC">American university in cairo</option>
+
+        </select>
+        <br>
+
+        <h2>Intersts</h2>
+        <label for="Programming">Programming</label>
+        <input type="checkbox" id="Programming" name="Programming" value="Programming">
+
+        <label for=" reading"> reading</label>
+        <input type="checkbox" id=" reading" name=" reading" value=" reading">
+
+        <label for=" swimming"> swimming</label>
+        <input type="checkbox" id=" swimming" name=" swimming" value=" swimming">
+
+
+        <br><br><br>
+
+
+
+
+        <label for="file">upload your picture</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+
+        <label for="about">About you</label>
+        <textarea id="about"></textarea>
+        <input type="text" id="about" name="about">
+        <br><br>
+        <label for=" agree"> I agreed to terms and condition</label>
+        <input type="checkbox" id=" agree" name=" agree" value=" agree" required>
+        
+
+        </textarea>
+        <br><br> <br>
+        <a href="thank_you.html">
+            submit
+        </a>
+
+        <input type="reset">
+
+    </form>
+
+</body>
+
+</html>
